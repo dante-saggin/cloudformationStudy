@@ -12,9 +12,7 @@
 ## The files included are:
 ```
 * Udagram-Diagram.svg : Diagram built using https://www.lucidchart.com/
-*
 * create-stack.sh : This script will check if the stack exists, if it exists it will update it if it does not exists it will try to create the stack
-
 * udagram-network.yaml : Udagram Cloudformation Sctript.
 * udagram-network-parameters.json : Udagram CloudFormation Parameters.
 ```
@@ -22,10 +20,10 @@
 ## Use Intructions:
 
 >All parameters in this script are optional, but in case of any missing parameter it will assume the default values:
->>stack_name="ThisIsJustATest"
->>template_body="udagram-network.yaml"
->>parameters="udagram-network-parameters.json"
->>region="us-west-2"
+- stack_name="ThisIsJustATest"
+- template_body="udagram-network.yaml"
+- parameters="udagram-network-parameters.json"
+- region="us-west-2"
 
 In order to use the script just run
 
