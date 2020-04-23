@@ -6,6 +6,8 @@
 
 ![img-1](Udagram-Diagram.svg)
 
+* Jenkins and git repository are not part of this cloudformation script
+
 > This script will build the entire enviroment including a bastion host where it's possible to reach the machines in the private vpc.
 
 
